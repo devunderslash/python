@@ -10,6 +10,8 @@
 
 **LambdaExample** - Contains an AWS Lambda Solution for Project Euler 25
 
+**ETLexample** - Simple Extract Transform and Display(Load) example
+
 ## How to run
 Clone this repository and then using your favourite terminal, open your folder/directory of choice (EulerProjectCode). Whilst in the directory you can run your chosen script in the terminal as follows:
 
@@ -17,7 +19,7 @@ Clone this repository and then using your favourite terminal, open your folder/d
 
 eg.
 
-`python eulpy01.py`
+`python eulpy25.py`
 
 All scripts are self contained and will print output to the command line without need for external input.
 
@@ -28,13 +30,13 @@ For each script there is a corresponding test and to run the test you would use 
 
 eg.
 
-`python eulpy01Test.py`
+`python eulpy25Test.py`
 
 
 
 ## Docker (Optional)
 
-If you have Docker installed then - No python, no problem... Run the following to spin the solution up in a container:
+No python, no problem... If you have Docker installed then run the following to spin the solution up in a container:
 
 Build the image with `docker build -t proj-eul:v1.0.0 .`
 
