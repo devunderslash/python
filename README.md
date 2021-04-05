@@ -52,5 +52,13 @@ and Upload it as a zip file in AWS Lambda with the **Upload from** button.
 OR
 Use the zip file that has already been created - `LambdaExample.zip`
 
+## Auto Rag Commit (Optional)
+
+Once you have added your desired change through `git add` you can then run the auto-tag-commit script and it will request a release type and commit message. Once these have been selected, your commit message has been written and you have confirmed the changes the script will then commit, tag and push your code. To run the script ensure that you are in the root directory and run the following command:
+
+`sh auto-tag-commit`
+
+**NOTE:** The above was created and ran on a Mac, you may need to use a terminal emulator for it to run on Windows machines or make a few tweaks for it to run on Windows CMD.
+
 
 
