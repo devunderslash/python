@@ -18,11 +18,12 @@ def compute():
     term = 2 # term of two 
     seq = [1,1] # which contains [1,1] as beginning of the sequence
 
-    # While the length of the second position is less than 1000 then continue loop
+    # While the length of the second position number as a string is less than 1000 then continue loop
     while len(str(seq[1])) < 1000:
         term +=1 #Increase term (index) by 1
 
-        #Replace sequence with the newest number in the first position and the sum of the two numbers in the second position
+        # Replace sequence with the latest number in the first position and the sum of the two numbers
+        # in the second position as the newest number 
         seq = [seq[1], seq[0] + seq[1]] 
 
     return (str(term))
